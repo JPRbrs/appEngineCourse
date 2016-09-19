@@ -1,0 +1,14 @@
+Deploying from CLI
+
+appcfg.py -A [YOUR_PROJECT_ID] -V v1 update ./
+
+decorators:
+https://realpython.com/blog/python/primer-on-python-decorators/
+http://www.learnpython.org/en/Decorators
+https://www.python.org/dev/peps/pep-0318/
+http://www.jeffknupp.com/blog/2013/11/29/improve-your-python-decorators-explained/
+
+endpoints API.
+They decorate classes (@endpoint.api)
+Those classes have methods also decorated (@endpoint.method)
+those methods need to have the request and response classes - the response class subclasses messages.Message
